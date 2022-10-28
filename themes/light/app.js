@@ -524,7 +524,7 @@ function render_search_result_list() {
    <div class="mdui-row"> 
     <ul id="list" class="mdui-list"> 
     </ul> 
-    <div id="count" class="mdui-hidden mdui-center mdui-text-center mdui-m-b-3 mdui-typo-subheading mdui-text-color-blue-grey-500">Total <span class="number"></span> Files</div>
+    <div id="count" class="mdui-hidden mdui-center mdui-text-center mdui-m-b-3 mdui-typo-subheading mdui-text-color-blue-grey-500">Total <span class="number"> Files</span> Files</div>
    </div>
   `;
     $('#content').html(content);
